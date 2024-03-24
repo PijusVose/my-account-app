@@ -1,0 +1,28 @@
+.content {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-box {
+  display: block;
+  border: 1px solid #900c3e;
+  border-radius: 8px;
+  background-color: #c70039;
+}
+
+.auth-box h3 {
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+.auth-buttons {
+  padding: 1em;
+}
+
+.auth-buttons button {
+  margin: 0 5px;
+  width: 100px;
+}

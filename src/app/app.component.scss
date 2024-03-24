@@ -40,6 +40,11 @@ nav ul li a {
     display: block;
     padding: 10px 15px;
     color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+  color: yellow;
 }
 
 nav ul li a:hover {
@@ -47,7 +52,20 @@ nav ul li a:hover {
     background: #ff5733;
 }
 
-.container .content { 
+.container .content {
     flex: 5 0 0;
     padding: 10px 20px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.search button {
+  margin: 0.3em;
+}
+
+.search input {
+  margin: 0.3em;
 }

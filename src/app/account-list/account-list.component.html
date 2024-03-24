@@ -1,0 +1,10 @@
+@if (accountsToShow.length == 0) {
+  <p>No accounts found.</p>
+}
+@else {
+  @for (account of accountsToShow; track account.name) {
+    <a [routerLink]="['/accounts', account.id]">
+      <img src="{{ account.imageUrl }}" style="width: 100px; margin: 1em;">
+    </a>
+  }
+}
