@@ -2,8 +2,10 @@
   <div class="auth-box">
     <h3>Authentication</h3>
     <div class="auth-buttons">
-      <button>Login</button>
-      <button>Register</button>
+      <button (click)="onRouteBtnClicked('login')">Login</button>
+      <button (click)="onRouteBtnClicked('register')">Register</button>
     </div>
   </div>
+
+  <router-outlet></router-outlet>
 </div>
